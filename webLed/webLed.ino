@@ -38,11 +38,9 @@ void setup() {
 
   server.begin();
 
-  pinMode(15, OUTPUT); // D5
-  pinMode(4, OUTPUT);  // D4
-
+  pinMode(15, OUTPUT);
+  
   digitalWrite(15, LOW);
-  digitalWrite(4, LOW);
 }
 
 void loop()
