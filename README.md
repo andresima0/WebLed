@@ -11,7 +11,11 @@ Procedures:
 
 1. Set up the Arduino IDE environment for ESP32 board connection, installing the necessary packages and libraries.
 
-2. Implement and run the provided webLed.ino code in this repository.
+2. Implement and run the provided "webLed.ino" code from this repository. Don't forget to change lines 6 and 7 by replacing them with your Wi-Fi network name (SSID) and your Wi-Fi network password.
+
+<p align="center">
+  <img src= https://github.com/andresima0/Help-ESP32/assets/111400782/18059e0c-c769-4a25-9f97-217408705f22) alt="webLedSsidPassword" width = "400">
+</p>
 
 3. Open the IDE's serial monitor and press the physical EN (reset) button on the ESP32. Some data will appear, including the local IP address.
 
@@ -48,7 +52,11 @@ Procedimentos:
 
 1. Configure o ambiente Arduino IDE para a conexão com uma placa ESP32, instalando os pacotes e bibliotecas necessárias.
 
-2. Implemente e execute o código webLed.ino fornecido neste repositório.
+2. Implemente e execute o código "webLed.ino" fornecido neste repositório. Não se esqueça de alterar as linhas 6 e 7, substituindo-as pelo nome da sua rede Wi-Fi (SSID) e pela senha da sua rede Wi-Fi.
+
+<p align="center">
+  <img src= https://github.com/andresima0/Help-ESP32/assets/111400782/18059e0c-c769-4a25-9f97-217408705f22) alt="webLedSsidPassword" width = "400">
+</p>
 
 3. Abra o monitor serial da IDE e clique no botão físico EN (reset) do ESP32. Aparecerão alguns dados, incluindo o endereço de IP local.
 
