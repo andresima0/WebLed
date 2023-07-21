@@ -1,5 +1,26 @@
 # webLed
-Web-based WiFi LED controller using an ESP32
+### Web-based WiFi LED controller using an ESP32
+
+This project is a WiFi-based LED controller using ESP32, allowing remote control of the LED through a web browser.
+
+The ESP32 acts as a web server, providing a simple webpage with buttons to turn the LED on and off. When these buttons are clicked in the web browser, a request is sent to the ESP32 server, which responds by controlling the output pin connected to the LED, toggling it between ON and OFF.
+
+<p align="center">
+  <img src= https://github.com/andresima0/webLed/assets/111400782/02bc1437-65c0-4ca5-91a5-933ad1611ac6)" alt="webLedOff") width = "400">
+  <img src= https://github.com/andresima0/webLed/assets/111400782/2d1c2fc8-a525-4576-96ee-614e633456c6" alt="webLedOn") width = "400">
+</p>
+
+With this setup, you can control the LED from any device connected to the same WiFi network as the ESP32, making it a practical and versatile solution for home automation and simple IoT projects.
+
+Connect the LED to pin D15 (GPIO 15) of the ESP32, and for the safety of both the LED and the ESP32, use a series resistor to limit the current. It is recommended to use a resistor of approximately 270 ohms or higher for this purpose.
+
+<p align="center">
+  <img src= https://github.com/andresima0/webLed/assets/111400782/c0778b77-f466-437e-8668-90b39fbf81a1" alt="webLedLayout")>
+</p>
+
+##
+
+### Portuguese version:
 
 Este projeto é um controlador de LED via WiFi baseado em ESP32, permitindo controle remoto do LED por meio de um navegador web.
 
@@ -17,5 +38,3 @@ Conecte o LED ao pino D15 (GPIO 15) do ESP32 e, para garantir a segurança do LE
 <p align="center">
   <img src= https://github.com/andresima0/webLed/assets/111400782/c0778b77-f466-437e-8668-90b39fbf81a1" alt="webLedLayout")>
 </p>
-
-
