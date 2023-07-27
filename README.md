@@ -1,4 +1,4 @@
-# webLed
+# WebLed
 ### Web-based WiFi LED controller using an ESP32
 
 This project is a web-based LED controller that communicates via WiFi with an ESP32, using an HTTP connection.
