@@ -14,13 +14,13 @@ Procedures:
 2. Implement and run the code from https://github.com/andresima0/WebLed/blob/main/webLed/webLed.ino. Don't forget to change lines 6 and 7 by replacing them with your Wi-Fi network name (SSID) and your Wi-Fi network password. 
 
 <p align="center">
-  <img src= https://github.com/andresima0/Help-ESP32/assets/111400782/18059e0c-c769-4a25-9f97-217408705f22) alt="webLedSsidPassword" width = "400">
+  <img src= https://github.com/andresima0/WebLed/assets/111400782/ee1d8c78-bf3b-4fc8-8284-25d336547561)  alt="webLedSsidPassword" width = "600">
 </p>
 
 3. Open the IDE's serial monitor and press the physical EN (reset) button on the ESP32. Some data will appear, including the local IP address.
 
 <p align="center">
-  <img src= https://github.com/andresima0/webLed/assets/111400782/5e61f63b-0e3c-46d2-9acd-a3b7742ae08f) alt="webLedSerialMonitor" width = "400">
+  <img src= https://github.com/andresima0/webLed/assets/111400782/5e61f63b-0e3c-46d2-9acd-a3b7742ae08f) alt="webLedSerialMonitor" width = "600">
 </p>
 
 4. In the web browser's address input box, type the provided IP address followed by the command to be executed by the ESP, for example, "192.168.0.15/Led_Off".
@@ -38,9 +38,10 @@ For the hardware, connect the LED to pin D15 (GPIO 15) of the ESP32, and to ensu
   <img src= https://github.com/andresima0/webLed/assets/111400782/c0778b77-f466-437e-8668-90b39fbf81a1" alt="webLedLayout")>
 </p>
 
-##
-
+#
 ### Portuguese version:
+
+### Controlador de LED WiFi baseado na web usando um ESP32
 
 Este projeto é um controlador de LED via navegador web que se comunica via WiFi com um ESP32, utilizando uma conexão HTTP.
 
@@ -55,13 +56,13 @@ Procedimentos:
 2. Implemente e execute o código de https://github.com/andresima0/WebLed/blob/main/webLed/webLed.ino. Não se esqueça de alterar as linhas 6 e 7, substituindo-as pelo nome da sua rede Wi-Fi (SSID) e pela senha da sua rede Wi-Fi.
 
 <p align="center">
-  <img src= https://github.com/andresima0/Help-ESP32/assets/111400782/18059e0c-c769-4a25-9f97-217408705f22) alt="webLedSsidPassword" width = "400">
+  <img src= https://github.com/andresima0/WebLed/assets/111400782/ee1d8c78-bf3b-4fc8-8284-25d336547561)  alt="webLedSsidPassword" width = "600">
 </p>
 
 3. Abra o monitor serial da IDE e clique no botão físico EN (reset) do ESP32. Aparecerão alguns dados, incluindo o endereço de IP local.
 
 <p align="center">
-  <img src= https://github.com/andresima0/webLed/assets/111400782/5e61f63b-0e3c-46d2-9acd-a3b7742ae08f) alt="webLedSerialMonitor" width = "400">
+  <img src= https://github.com/andresima0/webLed/assets/111400782/5e61f63b-0e3c-46d2-9acd-a3b7742ae08f) alt="webLedSerialMonitor" width = "600">
 </p>
 
 4. Na caixa de entrada do navegador web, digite o endereço de IP fornecido e, em seguida, escreva o comando a ser executado pelo ESP, por exemplo, "192.168.0.15/Led_Off".
