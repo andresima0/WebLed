@@ -11,7 +11,7 @@ Procedures:
 
 1. Set up the Arduino IDE environment for ESP32 board connection, installing the necessary packages and libraries.
 
-2. Implement and run the provided code from this repository, in https://github.com/andresima0/WebLed/blob/main/webLed/webLed.ino. Don't forget to change lines 6 and 7 by replacing them with your Wi-Fi network name (SSID) and your Wi-Fi network password. 
+2. Implement and run the provided code from https://github.com/andresima0/WebLed/blob/main/webLed/webLed.ino. Don't forget to change lines 6 and 7 by replacing them with your Wi-Fi network name (SSID) and your Wi-Fi network password. 
 
 <p align="center">
   <img src= https://github.com/andresima0/Help-ESP32/assets/111400782/18059e0c-c769-4a25-9f97-217408705f22) alt="webLedSsidPassword" width = "400">
@@ -52,7 +52,7 @@ Procedimentos:
 
 1. Configure o ambiente Arduino IDE para a conexão com uma placa ESP32, instalando os pacotes e bibliotecas necessárias.
 
-2. Implemente e execute o código fornecido neste repositório, em https://github.com/andresima0/WebLed/blob/main/webLed/webLed.ino. Não se esqueça de alterar as linhas 6 e 7, substituindo-as pelo nome da sua rede Wi-Fi (SSID) e pela senha da sua rede Wi-Fi.
+2. Implemente e execute o código fornecido em https://github.com/andresima0/WebLed/blob/main/webLed/webLed.ino. Não se esqueça de alterar as linhas 6 e 7, substituindo-as pelo nome da sua rede Wi-Fi (SSID) e pela senha da sua rede Wi-Fi.
 
 <p align="center">
   <img src= https://github.com/andresima0/Help-ESP32/assets/111400782/18059e0c-c769-4a25-9f97-217408705f22) alt="webLedSsidPassword" width = "400">
